@@ -1,11 +1,12 @@
+"use client";
 import Link from "next/link";
 
 export default function Navbar() {
   return (
-    <div className="fixed top-0 left-0 w-full bg-[rgba(0,0,0,0.3)] p-4 z-10 flex justify-center items-center">
-      <ul className="pl-6 flex justify-center space-x-8 text-white">
+    <nav className="fixed bottom-0 md:top-0 md:bottom-auto left-0 w-full bg-[rgba(0,0,0,0.3)] p-4 z-10 flex justify-center items-center">
+      <ul className="pl-6 flex justify-center space-x-8 text-white text-xs sm:text-lg">
         <li>
-          <Link href="" className="hover:text-gray-400">
+          <Link href="#home" className="hover:text-gray-400">
             Home
           </Link>
         </li>
@@ -30,6 +31,6 @@ export default function Navbar() {
           </Link>
         </li>
       </ul>
-    </div>
+    </nav>
   );
 }

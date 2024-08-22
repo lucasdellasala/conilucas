@@ -5,7 +5,7 @@ export default function Home() {
     <main>
       <div>
         {sections.map(({ component: Component, key }) => (
-          <div key={key}>
+          <div key={key} id={key}>
             <Component />
           </div>
         ))}
