@@ -1,5 +1,5 @@
-import { Template } from '../components/Template';
+import { Template } from "../components/Template";
 
 export function Dresscode() {
-  return <Template>Dresscode</Template>
+  return <Template backgroundColor="#AAA476">Dresscode</Template>;
 }

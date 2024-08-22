@@ -3,9 +3,17 @@ import { GenericSection } from "./GenericSection";
 export function Template({
   children,
   backgroundImage,
-}: Readonly<{ children: React.ReactNode; backgroundImage?: string }>) {
+  backgroundColor,
+}: Readonly<{
+  children: React.ReactNode;
+  backgroundImage?: string;
+  backgroundColor?: string;
+}>) {
   return (
-    <GenericSection backgroundImage={backgroundImage}>
+    <GenericSection
+      backgroundImage={backgroundImage}
+      backgroundColor={backgroundColor}
+    >
       <div className="h-screen w-full">
         <div className="flex items-center justify-center h-full">
           <h2 className="text-4xl font-bold justify-center">{children}</h2>

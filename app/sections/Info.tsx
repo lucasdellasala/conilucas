@@ -1,5 +1,5 @@
-import { Template } from '../components/Template';
+import { Template } from "../components/Template";
 
 export function Info() {
-  return <Template>Info</Template>
+  return <Template backgroundColor="#BF95AB">Info</Template>;
 }
