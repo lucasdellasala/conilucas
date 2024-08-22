@@ -13,6 +13,16 @@ const config: Config = {
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
+      animation: {
+        "spin-slow": "spin 3s linear infinite",
+        bounceOnce: 'bounceOnce 2s ease-out forwards',
+      },
+      keyframes: {
+        bounceOnce: {
+          '0%, 100%': { transform: 'translateY(0)' },
+          '50%': { transform: 'translateY(-25%)' },
+        },
+      },
     },
   },
   plugins: [],
