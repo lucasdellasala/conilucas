@@ -3,7 +3,7 @@ import { Template } from "../components/Template";
 import { focusFont } from "../config";
 
 export function Response() {
-  const calendarLink = "https://calendar.app.google/QLrnZCHPgn8C27xV7";
+  const calendarLink = "https://calendar.app.google/ja1PCZXQeNLev1w18";
   return (
     <Template backgroundColor="#804463">
       <Link href={calendarLink} target="_blank" rel="noopener noreferrer">
