@@ -1,4 +1,4 @@
-import { Template } from "../components/Template";
+import { Template, Title, Subtitle, Paragraph } from "../components/";
 
 import { titleFont, focusFont } from "../config";
 
@@ -6,21 +6,21 @@ export function Hero() {
   return (
     <Template backgroundImage="url('/background.png')">
       <div className="pt-20 -rotate-12 text-center">
-        <h1
-          className={`${titleFont.className} text-5xl lg:text-8xl drop-shadow-2xl`}
+        <Subtitle
+          className={`${titleFont.className}`}
         >
           Coni &amp; Lucas&apos;s
-        </h1>
-        <h1
-          className={`${titleFont.className} text-8xl lg:text-8xl drop-shadow-2xl`}
+        </Subtitle>
+        <Title
+          className={`${titleFont.className}`}
         >
           Wedding
-        </h1>
+        </Title>
       </div>
       <div
-        className={`${focusFont.className} py-10 text-xl lg:text-3xl text-center drop-shadow-2xl`}
+        className={`${focusFont.className} py-10`}
       >
-        <h2>28 DE DICIEMBRE DE 2024</h2>
+        <Paragraph>28 DE DICIEMBRE DE 2024</Paragraph>
       </div>
     </Template>
   );

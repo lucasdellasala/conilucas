@@ -14,9 +14,9 @@ export function Template({
       backgroundImage={backgroundImage}
       backgroundColor={backgroundColor}
     >
-      <div className="h-screen w-full">
-        <div className="flex items-center justify-center h-full">
-          <h2 className="text-4xl font-bold justify-center">{children}</h2>
+      <div className="h-screen w-full container px-8">
+        <div className="flex items-center justify-center h-full flex-col">
+          {children}
         </div>
       </div>
     </GenericSection>
