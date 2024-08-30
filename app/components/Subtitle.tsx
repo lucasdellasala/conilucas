@@ -1,3 +1,5 @@
+import { titleFont } from "../config";
+
 export const Subtitle = ({
   children,
   className,
@@ -7,7 +9,7 @@ export const Subtitle = ({
 }>) => {
   return (
     <h2
-      className={`text-5xl lg:text-8xl drop-shadow-2xl ${className ?? ""}`}
+      className={`${titleFont.className} text-5xl lg:text-8xl drop-shadow-2xl ${className ?? ""}`}
       dangerouslySetInnerHTML={{ __html: children }}
     ></h2>
   );
