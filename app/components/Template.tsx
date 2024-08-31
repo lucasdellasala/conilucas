@@ -18,8 +18,9 @@ export function Template({
       backgroundImage={backgroundImage}
       backgroundColor={backgroundColor}
       className={className}
+      noHScreen={noHScreen}
     >
-      <div className={`${noHScreen? "": "h-screen"} w-full container px-8`}>
+      <div className="w-full container px-8">
         <div className="flex items-center justify-center h-full flex-col">
           {children}
         </div>
