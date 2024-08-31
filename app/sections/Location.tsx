@@ -2,7 +2,7 @@ import { Paragraph, Template } from "../components/";
 
 export function Location() {
   return (
-    <Template backgroundColor="#76A4AA">
+    <Template backgroundColor="#BF95AB">
       <Paragraph className="pb-4">La cita es el 28 de diciembre de 2024 a las 18hs en Jano&apos;s Puerto Madero Boutique, <a className="text-yellow-200" href="https://maps.app.goo.gl/gJCJngfTjWRXjnVHA">Av. Dr. Tristán Achával Rodríguez 1353, CABA.</a></Paragraph>
       <div className="relative w-full h-96">
         <iframe
