@@ -4,17 +4,22 @@ export function Template({
   children,
   backgroundImage,
   backgroundColor,
+  noHScreen = false,
+  className,
 }: Readonly<{
   children: React.ReactNode;
   backgroundImage?: string;
   backgroundColor?: string;
+  noHScreen?: boolean;
+  className?: string;
 }>) {
   return (
     <GenericSection
       backgroundImage={backgroundImage}
       backgroundColor={backgroundColor}
+      className={className}
     >
-      <div className="h-screen w-full container px-8">
+      <div className={`${noHScreen? "": "h-screen"} w-full container px-8`}>
         <div className="flex items-center justify-center h-full flex-col">
           {children}
         </div>

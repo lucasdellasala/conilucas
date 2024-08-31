@@ -2,7 +2,7 @@ import { Paragraph, Template, Subtitle, Span } from "../components/";
 
 export function Dresscode() {
   return (
-    <Template backgroundColor="#AAA476">
+    <Template backgroundColor="#76A4AA">
       <Subtitle className="pb-8">Dresscode</Subtitle>
       <Paragraph className="!text-left pt-4 lg:pt-0">
         El código de vestimenta para esta celebración será{" "}

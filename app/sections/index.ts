@@ -3,6 +3,7 @@ import { Info } from "./Info";
 import { Location } from "./Location";
 import { Dresscode } from "./Dresscode";
 import { Response } from "./Response";
+import { Gift } from "./Gift";
 
 export const sections = [
   { component: Hero, key: "hero" },
@@ -10,4 +11,5 @@ export const sections = [
   { component: Location, key: "location" },
   { component: Dresscode, key: "dresscode" },
   { component: Response, key: "response" },
+  { component: Gift, key: "gift" },
 ];
