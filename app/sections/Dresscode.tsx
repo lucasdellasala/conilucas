@@ -54,7 +54,7 @@ export function Dresscode() {
 
   return (
     <Template backgroundColor="#76A4AA">
-      <Subtitle className="pb-8">Dresscode: elegante</Subtitle>
+      <Subtitle className="pb-8">Dresscode: Elegante</Subtitle>
       <Paragraph className="!text-left pt-4 lg:pt-0">
         En este día tan importante, nos gustaría que cada uno de ustedes brille
         con elegancia y estilo.
