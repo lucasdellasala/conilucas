@@ -8,8 +8,8 @@ export function Gift() {
       </Subtitle>
       <Paragraph className={`!text-left pt-0 sm:pt-4 lg:pt-16 xl:pt-24`}>
         Para celebrar nuestro enlace y empezar esta nueva etapa, hemos decidido
-        hacer un viaje y disfrutar de nuevas experiencias juntos. En lugar de
-        regalos tradicionales, hemos optado por una pequeña colecta para apoyar
+        hacer un gran viaje y disfrutar de nuevas experiencias juntos. En lugar de
+        regalos tradicionales, hemos optado por una colecta para apoyar
         nuestros planes.
       </Paragraph>
       <Paragraph className={`!text-left`}>
