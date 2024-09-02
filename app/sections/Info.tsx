@@ -1,10 +1,10 @@
 import { Image, Paragraph, Template, Title } from "../components/";
-import { titleFont, focusFont } from "../config";
+import { titleFont, focusFont, backgroundColors } from "../config";
 
 export function Info() {
   return (
     <>
-      <Template backgroundColor="#BF95AB">
+      <Template backgroundColor={backgroundColors[0]}>
         <Title className={`${titleFont.className} py-4 text-center`}>
           Había una vez
         </Title>
@@ -24,7 +24,7 @@ export function Info() {
           </Paragraph>
         </div>
       </Template>
-      <Template backgroundColor="#76A4AA">
+      <Template backgroundColor={backgroundColors[1]}>
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 pt-4">
             <Image
               src="/carousel/09.jpg"
@@ -41,7 +41,7 @@ export function Info() {
           </Paragraph>
         </div>
       </Template>
-      <Template backgroundColor="#AAA476">
+      <Template backgroundColor={backgroundColors[2]}>
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-4">
             <Image
               src="/carousel/07.jpg"
@@ -57,7 +57,7 @@ export function Info() {
           </Paragraph>
         </div>
       </Template>
-      <Template backgroundColor="#804463">
+      <Template backgroundColor={backgroundColors[3]}>
         <Paragraph
           className={`${focusFont.className} text-center pt-4 lg:pt-0`}
         >

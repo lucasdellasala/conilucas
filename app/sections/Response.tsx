@@ -1,13 +1,13 @@
 import Link from "next/link";
 import { Template, Paragraph, Subtitle } from "../components/";
-import { focusFont, titleFont } from "../config";
+import { backgroundColors, focusFont, titleFont } from "../config";
 
 export function Response() {
   const calendarLink = "https://calendar.app.google/ja1PCZXQeNLev1w18";
   return (
     <>
       <Template
-        backgroundColor="#AAA476"
+        backgroundColor={backgroundColors[6]}
         noHScreen={true}
         className="h-[1500px] md:h-[1300px]"
       >
@@ -19,7 +19,7 @@ export function Response() {
           Cargando…
         </iframe>
       </Template>
-      <Template backgroundColor="#804463">
+      <Template backgroundColor={backgroundColors[7]}>
         <div className="grid grid-rows-2 gap-8 place-items-center">
           <Subtitle className={`${titleFont.className} text-center`}>
             Agendá el evento en tu calendario
