@@ -1,8 +1,9 @@
 import { Subtitle, Paragraph, Template, Span } from "../components/";
+import { backgroundColors } from "../config";
 
 export function Gift() {
   return (
-    <Template backgroundColor="#BF95AB">
+    <Template backgroundColor={backgroundColors[8]}>
       <Subtitle className={`py-4 text-center`}>
         Si querés hacernos un regalo
       </Subtitle>

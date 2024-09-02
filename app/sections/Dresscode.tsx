@@ -1,4 +1,5 @@
 import { Paragraph, Template, Subtitle } from "../components/";
+import { backgroundColors } from "../config";
 
 export function Dresscode() {
   const colors = {
@@ -53,8 +54,9 @@ export function Dresscode() {
 
 
   return (
-    <Template backgroundColor="#76A4AA">
+    <Template backgroundColor={backgroundColors[5]}>
       <Subtitle className="pb-8">Dresscode: Elegante</Subtitle>
+
       <Paragraph className="!text-left pt-4 lg:pt-0">
         En este día tan importante, nos gustaría que cada uno de ustedes brille
         con elegancia y estilo.
@@ -86,6 +88,7 @@ function generateColorSwatch({ hex, title }: { hex: string; title: string }) {
       key={`swatch-${title}`}
       className={`w-8 md:w-12 lg:w-16 h-8 md:h-12 lg:h-16 rounded-full bg-[${hex}]`}
       title={title}
+      style={{backgroundColor: hex}}
     ></div>
   );
 }
