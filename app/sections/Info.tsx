@@ -9,13 +9,11 @@ export function Info() {
           Había una vez
         </Title>
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 pt-0 sm:pt-8">
-          <div className="border-4 rounded-lg">
             <Image
               src="/carousel/08.jpg"
               alt="kiss"
-              className="w-full h-auto"
+              className="w-full h-auto border-4 rounded-lg"
             />
-          </div>
           <Paragraph
             className={`${focusFont.className} !text-left pt-0 sm:pt-4 lg:pt-16 xl:pt-24`}
           >
@@ -28,13 +26,11 @@ export function Info() {
       </Template>
       <Template backgroundColor="#76A4AA">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 pt-4">
-          <div className="border-4 rounded-lg">
             <Image
               src="/carousel/09.jpg"
               alt="kiss"
-              className="w-full h-auto"
+              className="w-full h-auto border-4 rounded-lg"
             />
-          </div>
           <Paragraph
             className={`${focusFont.className} !text-left pt-4 lg:pt-16 xl:pt-24`}
           >
@@ -47,13 +43,11 @@ export function Info() {
       </Template>
       <Template backgroundColor="#AAA476">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-4">
-          <div className="border-4 rounded-lg">
             <Image
               src="/carousel/07.jpg"
               alt="kiss"
-              className="w-full h-auto"
+              className="w-full h-auto border-4 rounded-lg"
             />
-          </div>
           <Paragraph
             className={`${focusFont.className} !text-left pt-4 lg:pt-16 xl:pt-24`}
           >

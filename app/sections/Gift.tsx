@@ -15,10 +15,13 @@ export function Gift() {
       <Paragraph className={`!text-left`}>
         Si deseas contribuir, nos encantaría que lo hicieras, pero lo más
         importante para nosotros es compartir este momento especial con cada uno
-        de ustedes. ¡Gracias por su amor y apoyo!
+        de ustedes. ¡Gracias por su amor y apoyo !
       </Paragraph>
-      <Paragraph>
-        <Span>CVU: conischramm</Span>
+      <Paragraph className="pb-0">
+        <Span>ALIAS:</Span>
+      </Paragraph>
+      <Paragraph className="pt-0">
+        <Span>conilucaswedding</Span>
       </Paragraph>
     </Template>
   );
