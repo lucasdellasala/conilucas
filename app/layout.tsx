@@ -9,6 +9,9 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "Coni & Lucas",
   description: "Casamiento de Coni & Lucas",
+  icons: {
+    icon: ["/favicon.ico"]
+  },
   openGraph: {
     type: "website",
     locale: "es_AR",
