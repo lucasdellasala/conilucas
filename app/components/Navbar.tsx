@@ -1,10 +1,11 @@
 "use client";
 import Link from "next/link";
 import { Logo } from "./Logo";
+import { focusFont } from "../config";
 
 export function Navbar() {
   return (
-    <nav className="fixed bottom-0 md:top-0 md:bottom-auto left-0 w-full bg-[rgba(0,0,0,0.3)] p-4 z-10 text-sm sm:text-base md:text-xl lg:text-3xl">
+    <nav className={`fixed bottom-0 md:top-0 md:bottom-auto left-0 w-full bg-[rgba(0,0,0,0.3)] p-4 z-10 text-sm sm:text-base md:text-xl lg:text-3xl ${focusFont.className}`}>
       <ul className="grid grid-cols-5 gap-2 place-items-center">
         <li className="flex justify-center align-middle items-center">
           <Link href="#info" className="hover:text-gray-400">
@@ -28,7 +29,7 @@ export function Navbar() {
         </li>
         <li className="flex justify-center align-middle items-center">
           <Link href="#response" className="hover:text-gray-400">
-            Agendar
+            Responder
           </Link>
         </li>
       </ul>
