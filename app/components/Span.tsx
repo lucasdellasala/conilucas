@@ -8,7 +8,7 @@ export const Span = ({
   className?: string;
 }) => {
   return (
-    <span className="font-bold text-black italic">
+    <span className="font-bold text-yellow-400 italic">
       {children}
     </span>
   );
