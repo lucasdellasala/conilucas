@@ -20,7 +20,7 @@ export function Gift() {
         <Span>ALIAS:</Span>
       </Paragraph>
       <Paragraph className="pt-0">
-        <Span>dellasalalucasbbva</Span>
+        <Span>conilucas.mp</Span>
       </Paragraph>
     </Template>
   );
