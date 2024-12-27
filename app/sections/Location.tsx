@@ -4,7 +4,7 @@ import { backgroundColors } from "../config";
 export function Location() {
   return (
     <Template backgroundColor={backgroundColors[4]}>
-      <Paragraph className="pb-4">La cita es el 28 de diciembre de 2024 a las 18:30hs (puntual) en Jano&apos;s Puerto Madero Boutique, <a className="text-yellow-200" href="https://maps.app.goo.gl/gJCJngfTjWRXjnVHA">Av. Dr. Tristán Achával Rodríguez 1353, CABA.</a></Paragraph>
+      <Paragraph className="pb-4">La cita es el 28 de diciembre de 2024 a las 18:30hs (se requiere puntualidad ya que comienza la ceremonia) en Jano&apos;s Puerto Madero Boutique, <a className="text-yellow-200" href="https://maps.app.goo.gl/gJCJngfTjWRXjnVHA">Av. Dr. Tristán Achával Rodríguez 1353, CABA.</a></Paragraph>
       <div className="relative w-full h-96">
         <iframe
           title="Jano's Puerto Madero Boutique"
