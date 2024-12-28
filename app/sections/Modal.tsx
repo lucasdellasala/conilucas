@@ -43,7 +43,7 @@ export function Modal() {
             <p className="mt-2">Te esperamos 18:30hs 💍</p>
             <p className="mb-4">(Ser puntuales por favor)</p>
             <a
-              href="#"
+              href="https://maps.app.goo.gl/gJCJngfTjWRXjnVHA"
               className="inline-block bg-blue-800 text-white py-2 px-4 rounded hover:bg-blue-900 transition duration-200"
             >
               Ubicación
